@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94F02CE0141238CE00C53234 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94F02CDF141238CE00C53234 /* Cocoa.framework */; };
+		94F02CEA141238CE00C53234 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94F02CE8141238CE00C53234 /* InfoPlist.strings */; };
+		94F02CEC141238CE00C53234 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F02CEB141238CE00C53234 /* main.m */; };
+		94F02CF0141238CE00C53234 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 94F02CEE141238CE00C53234 /* Credits.rtf */; };
+		94F02CF3141238CE00C53234 /* NyanAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F02CF2141238CE00C53234 /* NyanAppDelegate.m */; };
+		94F02CF6141238CE00C53234 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94F02CF4141238CE00C53234 /* MainMenu.xib */; };
+		94F02CFE14123BEB00C53234 /* NXNyanControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F02CFD14123BEB00C53234 /* NXNyanControl.m */; };
+		94F02D181412521600C53234 /* nyan.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F02D0F1412521600C53234 /* nyan.png */; };
+		94F02D191412521600C53234 /* nyan-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F02D101412521600C53234 /* nyan-1.png */; };
+		94F02D1A1412521600C53234 /* nyan-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F02D111412521600C53234 /* nyan-2.png */; };
+		94F02D1B1412521600C53234 /* nyan-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F02D121412521600C53234 /* nyan-3.png */; };
+		94F02D1C1412521600C53234 /* nyan-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F02D131412521600C53234 /* nyan-4.png */; };
+		94F02D1D1412521600C53234 /* nyan-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F02D141412521600C53234 /* nyan-5.png */; };
+		94F02D201412521600C53234 /* rainbow.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F02D171412521600C53234 /* rainbow.png */; };
+		94F02D241412535700C53234 /* nyan-0.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F02D221412535700C53234 /* nyan-0.png */; };
+		94F02D251412535700C53234 /* space.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F02D231412535700C53234 /* space.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		94F02CDB141238CE00C53234 /* Nyan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nyan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94F02CDF141238CE00C53234 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		94F02CE2141238CE00C53234 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		94F02CE3141238CE00C53234 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		94F02CE4141238CE00C53234 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		94F02CE7141238CE00C53234 /* Nyan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Nyan-Info.plist"; sourceTree = "<group>"; };
+		94F02CE9141238CE00C53234 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		94F02CEB141238CE00C53234 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94F02CED141238CE00C53234 /* Nyan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nyan-Prefix.pch"; sourceTree = "<group>"; };
+		94F02CEF141238CE00C53234 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		94F02CF1141238CE00C53234 /* NyanAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NyanAppDelegate.h; sourceTree = "<group>"; };
+		94F02CF2141238CE00C53234 /* NyanAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NyanAppDelegate.m; sourceTree = "<group>"; };
+		94F02CF5141238CE00C53234 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		94F02CFC14123BEB00C53234 /* NXNyanControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXNyanControl.h; sourceTree = "<group>"; };
+		94F02CFD14123BEB00C53234 /* NXNyanControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXNyanControl.m; sourceTree = "<group>"; };
+		94F02D0F1412521600C53234 /* nyan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nyan.png; sourceTree = "<group>"; };
+		94F02D101412521600C53234 /* nyan-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nyan-1.png"; sourceTree = "<group>"; };
+		94F02D111412521600C53234 /* nyan-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nyan-2.png"; sourceTree = "<group>"; };
+		94F02D121412521600C53234 /* nyan-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nyan-3.png"; sourceTree = "<group>"; };
+		94F02D131412521600C53234 /* nyan-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nyan-4.png"; sourceTree = "<group>"; };
+		94F02D141412521600C53234 /* nyan-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nyan-5.png"; sourceTree = "<group>"; };
+		94F02D171412521600C53234 /* rainbow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rainbow.png; sourceTree = "<group>"; };
+		94F02D221412535700C53234 /* nyan-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nyan-0.png"; sourceTree = "<group>"; };
+		94F02D231412535700C53234 /* space.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = space.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94F02CD8141238CE00C53234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F02CE0141238CE00C53234 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94F02CD0141238CE00C53234 = {
+			isa = PBXGroup;
+			children = (
+				94F02D0A141251EB00C53234 /* Resources */,
+				94F02CE5141238CE00C53234 /* Nyan */,
+				94F02CDE141238CE00C53234 /* Frameworks */,
+				94F02CDC141238CE00C53234 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94F02CDC141238CE00C53234 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94F02CDB141238CE00C53234 /* Nyan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94F02CDE141238CE00C53234 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94F02CDF141238CE00C53234 /* Cocoa.framework */,
+				94F02CE1141238CE00C53234 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94F02CE1141238CE00C53234 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94F02CE2141238CE00C53234 /* AppKit.framework */,
+				94F02CE3141238CE00C53234 /* CoreData.framework */,
+				94F02CE4141238CE00C53234 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		94F02CE5141238CE00C53234 /* Nyan */ = {
+			isa = PBXGroup;
+			children = (
+				94F02CF1141238CE00C53234 /* NyanAppDelegate.h */,
+				94F02CF2141238CE00C53234 /* NyanAppDelegate.m */,
+				94F02CF4141238CE00C53234 /* MainMenu.xib */,
+				94F02CE6141238CE00C53234 /* Supporting Files */,
+				94F02CFC14123BEB00C53234 /* NXNyanControl.h */,
+				94F02CFD14123BEB00C53234 /* NXNyanControl.m */,
+			);
+			path = Nyan;
+			sourceTree = "<group>";
+		};
+		94F02CE6141238CE00C53234 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94F02CE7141238CE00C53234 /* Nyan-Info.plist */,
+				94F02CE8141238CE00C53234 /* InfoPlist.strings */,
+				94F02CEB141238CE00C53234 /* main.m */,
+				94F02CED141238CE00C53234 /* Nyan-Prefix.pch */,
+				94F02CEE141238CE00C53234 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94F02D0A141251EB00C53234 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				94F02D0F1412521600C53234 /* nyan.png */,
+				94F02D221412535700C53234 /* nyan-0.png */,
+				94F02D101412521600C53234 /* nyan-1.png */,
+				94F02D111412521600C53234 /* nyan-2.png */,
+				94F02D121412521600C53234 /* nyan-3.png */,
+				94F02D131412521600C53234 /* nyan-4.png */,
+				94F02D141412521600C53234 /* nyan-5.png */,
+				94F02D231412535700C53234 /* space.png */,
+				94F02D171412521600C53234 /* rainbow.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94F02CDA141238CE00C53234 /* Nyan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94F02CF9141238CE00C53234 /* Build configuration list for PBXNativeTarget "Nyan" */;
+			buildPhases = (
+				94F02CD7141238CE00C53234 /* Sources */,
+				94F02CD8141238CE00C53234 /* Frameworks */,
+				94F02CD9141238CE00C53234 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nyan;
+			productName = Nyan;
+			productReference = 94F02CDB141238CE00C53234 /* Nyan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94F02CD2141238CE00C53234 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0410;
+			};
+			buildConfigurationList = 94F02CD5141238CE00C53234 /* Build configuration list for PBXProject "Nyan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 94F02CD0141238CE00C53234;
+			productRefGroup = 94F02CDC141238CE00C53234 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94F02CDA141238CE00C53234 /* Nyan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94F02CD9141238CE00C53234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F02CEA141238CE00C53234 /* InfoPlist.strings in Resources */,
+				94F02CF0141238CE00C53234 /* Credits.rtf in Resources */,
+				94F02CF6141238CE00C53234 /* MainMenu.xib in Resources */,
+				94F02D181412521600C53234 /* nyan.png in Resources */,
+				94F02D191412521600C53234 /* nyan-1.png in Resources */,
+				94F02D1A1412521600C53234 /* nyan-2.png in Resources */,
+				94F02D1B1412521600C53234 /* nyan-3.png in Resources */,
+				94F02D1C1412521600C53234 /* nyan-4.png in Resources */,
+				94F02D1D1412521600C53234 /* nyan-5.png in Resources */,
+				94F02D201412521600C53234 /* rainbow.png in Resources */,
+				94F02D241412535700C53234 /* nyan-0.png in Resources */,
+				94F02D251412535700C53234 /* space.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94F02CD7141238CE00C53234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F02CEC141238CE00C53234 /* main.m in Sources */,
+				94F02CF3141238CE00C53234 /* NyanAppDelegate.m in Sources */,
+				94F02CFE14123BEB00C53234 /* NXNyanControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		94F02CE8141238CE00C53234 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94F02CE9141238CE00C53234 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		94F02CEE141238CE00C53234 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94F02CEF141238CE00C53234 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		94F02CF4141238CE00C53234 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94F02CF5141238CE00C53234 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94F02CF7141238CE00C53234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		94F02CF8141238CE00C53234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		94F02CFA141238CE00C53234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nyan/Nyan-Prefix.pch";
+				INFOPLIST_FILE = "Nyan/Nyan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		94F02CFB141238CE00C53234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nyan/Nyan-Prefix.pch";
+				INFOPLIST_FILE = "Nyan/Nyan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94F02CD5141238CE00C53234 /* Build configuration list for PBXProject "Nyan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94F02CF7141238CE00C53234 /* Debug */,
+				94F02CF8141238CE00C53234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94F02CF9141238CE00C53234 /* Build configuration list for PBXNativeTarget "Nyan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94F02CFA141238CE00C53234 /* Debug */,
+				94F02CFB141238CE00C53234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94F02CD2141238CE00C53234 /* Project object */;
+}
