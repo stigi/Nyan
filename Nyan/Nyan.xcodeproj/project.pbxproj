@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94C4127A1413804400DF0EFA /* NXNyanControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C412771413804400DF0EFA /* NXNyanControl.m */; };
+		94C4127B1413804400DF0EFA /* NyanAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C412791413804400DF0EFA /* NyanAppDelegate.m */; };
 		94F02CE0141238CE00C53234 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94F02CDF141238CE00C53234 /* Cocoa.framework */; };
 		94F02CEA141238CE00C53234 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94F02CE8141238CE00C53234 /* InfoPlist.strings */; };
 		94F02CEC141238CE00C53234 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F02CEB141238CE00C53234 /* main.m */; };
 		94F02CF0141238CE00C53234 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 94F02CEE141238CE00C53234 /* Credits.rtf */; };
-		94F02CF3141238CE00C53234 /* NyanAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F02CF2141238CE00C53234 /* NyanAppDelegate.m */; };
 		94F02CF6141238CE00C53234 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94F02CF4141238CE00C53234 /* MainMenu.xib */; };
-		94F02CFE14123BEB00C53234 /* NXNyanControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F02CFD14123BEB00C53234 /* NXNyanControl.m */; };
 		94F02D181412521600C53234 /* nyan.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F02D0F1412521600C53234 /* nyan.png */; };
 		94F02D191412521600C53234 /* nyan-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F02D101412521600C53234 /* nyan-1.png */; };
 		94F02D1A1412521600C53234 /* nyan-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F02D111412521600C53234 /* nyan-2.png */; };
@@ -26,6 +26,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		94C412761413804400DF0EFA /* NXNyanControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXNyanControl.h; sourceTree = "<group>"; };
+		94C412771413804400DF0EFA /* NXNyanControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXNyanControl.m; sourceTree = "<group>"; };
+		94C412781413804400DF0EFA /* NyanAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NyanAppDelegate.h; sourceTree = "<group>"; };
+		94C412791413804400DF0EFA /* NyanAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NyanAppDelegate.m; sourceTree = "<group>"; };
 		94F02CDB141238CE00C53234 /* Nyan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nyan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94F02CDF141238CE00C53234 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		94F02CE2141238CE00C53234 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -36,11 +40,7 @@
 		94F02CEB141238CE00C53234 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		94F02CED141238CE00C53234 /* Nyan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nyan-Prefix.pch"; sourceTree = "<group>"; };
 		94F02CEF141238CE00C53234 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		94F02CF1141238CE00C53234 /* NyanAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NyanAppDelegate.h; sourceTree = "<group>"; };
-		94F02CF2141238CE00C53234 /* NyanAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NyanAppDelegate.m; sourceTree = "<group>"; };
 		94F02CF5141238CE00C53234 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		94F02CFC14123BEB00C53234 /* NXNyanControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXNyanControl.h; sourceTree = "<group>"; };
-		94F02CFD14123BEB00C53234 /* NXNyanControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXNyanControl.m; sourceTree = "<group>"; };
 		94F02D0F1412521600C53234 /* nyan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nyan.png; sourceTree = "<group>"; };
 		94F02D101412521600C53234 /* nyan-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nyan-1.png"; sourceTree = "<group>"; };
 		94F02D111412521600C53234 /* nyan-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nyan-2.png"; sourceTree = "<group>"; };
@@ -64,6 +64,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		94C4127514137FDC00DF0EFA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				94C412761413804400DF0EFA /* NXNyanControl.h */,
+				94C412771413804400DF0EFA /* NXNyanControl.m */,
+				94C412781413804400DF0EFA /* NyanAppDelegate.h */,
+				94C412791413804400DF0EFA /* NyanAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		94F02CD0141238CE00C53234 = {
 			isa = PBXGroup;
 			children = (
@@ -104,12 +115,9 @@
 		94F02CE5141238CE00C53234 /* Nyan */ = {
 			isa = PBXGroup;
 			children = (
-				94F02CF1141238CE00C53234 /* NyanAppDelegate.h */,
-				94F02CF2141238CE00C53234 /* NyanAppDelegate.m */,
+				94C4127514137FDC00DF0EFA /* Classes */,
 				94F02CF4141238CE00C53234 /* MainMenu.xib */,
 				94F02CE6141238CE00C53234 /* Supporting Files */,
-				94F02CFC14123BEB00C53234 /* NXNyanControl.h */,
-				94F02CFD14123BEB00C53234 /* NXNyanControl.m */,
 			);
 			path = Nyan;
 			sourceTree = "<group>";
@@ -215,8 +223,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				94F02CEC141238CE00C53234 /* main.m in Sources */,
-				94F02CF3141238CE00C53234 /* NyanAppDelegate.m in Sources */,
-				94F02CFE14123BEB00C53234 /* NXNyanControl.m in Sources */,
+				94C4127A1413804400DF0EFA /* NXNyanControl.m in Sources */,
+				94C4127B1413804400DF0EFA /* NyanAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
