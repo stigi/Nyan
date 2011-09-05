@@ -127,9 +127,10 @@ const NSUInteger NXNyanNumberOfFrames = 6;
 
 - (void)mouseDown:(NSEvent *)theEvent;
 {
-    [NSMenu popUpContextMenu:self.statusItem.menu
-                   withEvent:theEvent
-                     forView:self];
+    [self.statusItem.menu popUpMenuPositioningItem:nil
+                                        atLocation:NSMakePoint(0, 0)
+                                            inView:self];
 }
+
 
 @end
