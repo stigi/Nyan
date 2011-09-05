@@ -69,6 +69,7 @@ const NSUInteger NXNyanNumberOfFrames = 6;
     NSRect rainbowSrcRect = NSMakeRect(0, 0, rainbowImage.size.width, rainbowImage.size.height);
     
     CGFloat y = NSMinY(bounds) + (NSHeight(bounds) - NSHeight(frameSrcRect)) / 2;
+    y =  roundf(y);
     
     NSRect spaceRect = NSMakeRect(NSMaxX(bounds) - NSWidth(spaceSrcRect) - 5,
                                   y,
