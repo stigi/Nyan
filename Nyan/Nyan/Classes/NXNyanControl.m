@@ -29,7 +29,8 @@ const NSUInteger NXNyanNumberOfFrames = 6;
         frames = [[self loadFrames] retain];
         spaceImage = [[NSImage imageNamed:@"space.png"] retain];
         rainbowImage = [[NSImage imageNamed:@"rainbow.png"] retain];
-        [NSTimer scheduledTimerWithTimeInterval:0.2
+        NSUInteger beatsPerMinute = 142;
+        [NSTimer scheduledTimerWithTimeInterval:(60.0 / beatsPerMinute / NXNyanNumberOfFrames)
                                          target:self
                                        selector:@selector(nextFrame:)
                                        userInfo:nil
